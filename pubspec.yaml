@@ -65,6 +65,7 @@ dependencies:
   # Localization
   intl: ^0.18.1
   easy_localization: ^3.0.3
+  flutter_screenutil: ^5.9.0
   # for splash screen
 
 # for svg svg
