@@ -7,6 +7,7 @@ class AppRouter {
   Route generateRoute(RouteSettings settings) {
     // this argument to bassed in any screen like this ( arguments as className )
     final arguments = settings.arguments;
+
     switch (settings.name) {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(builder: (_) => const OnBoardingScreen());
